@@ -1,101 +1,88 @@
-body
-{
-    color: #fff;
-    background: #333;
+body {
+  background: #333;
+  color: #fff;
 }
 
-.navbar
-{
-    opacity: .8;
-    border-bottom: #008ed6 3px solid;
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
 }
 
-#home-section
-{
-    min-height: 700px;
-    background-image: url('../img/home.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+#home-section {
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
 }
 
-#home-section .dark-overlay
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 700px;
-    background-color: rgba(0, 0, 0, .7);
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
 }
 
-#home-section .home-inner
-{
-    padding-top: 150px;
+#home-section .home-inner {
+  padding-top: 150px;
 }
 
-#home-section .card-form
-{
-    opacity: .8;
+#home-section .card-form {
+  opacity: 0.8;
 }
 
-#home-section .fa
-{
-    font-size: 30px;
-    padding: 4px;
-    color: #008ed6;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    background: #fff;
-        -ms-border-radius: 5px;
-         -o-border-radius: 5px;
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 30px;
 }
 
-#explore-section .fa,
-#share-section .fa
-{
-    font-size: 30px;
-    padding: 4px;
-    color: #fff;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    background: #333;
-        -ms-border-radius: 5px;
-         -o-border-radius: 5px;
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 30px;
 }
 
-#explore-section .img-radius,
-#share-section .img-radius
-{
-    -webkit-border-radius: 5%;
-       -moz-border-radius: 5%;
-            border-radius: 5%;
-    box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, .65);
-        -ms-border-radius: 5%;
-         -o-border-radius: 5%;
+#explore-section .img-radius, #share-section .img-radius {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
 }
 
-#create-section .fa
-{
-    font-size: 30px;
-    padding: 4px;
-    color: #008ed6;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    background: #fff;
-        -ms-border-radius: 5px;
-         -o-border-radius: 5px;
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 30px;
 }
 
-#create-section .img-radius
-{
-    -webkit-border-radius: 5%;
-       -moz-border-radius: 5%;
-            border-radius: 5%;
-    box-shadow: -13px 14px 22px 1px #404040;
-        -ms-border-radius: 5%;
-         -o-border-radius: 5%;
+#create-section .img-radius {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: -13px 14px 22px 1px #404040;
 }
