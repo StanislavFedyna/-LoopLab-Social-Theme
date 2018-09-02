@@ -46,8 +46,8 @@ body {
 }
 
 #explore-section .fa, #share-section .fa {
-  color: #fff;
-  background: #333;
+  color: #008ed6;
+  background: #fff;
   padding: 4px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -55,6 +55,8 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   font-size: 30px;
+  color: #fff;
+  background: #333;
 }
 
 #explore-section .img-radius, #share-section .img-radius {
@@ -84,5 +86,5 @@ body {
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
-  box-shadow: -13px 14px 22px 1px #404040;
+  box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
 }
