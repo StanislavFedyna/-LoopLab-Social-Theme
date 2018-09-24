@@ -1,3 +1,36 @@
+/* Scroll<br> */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-image: -webkit-linear-gradient(black, #0366D0);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border: 1px solid black;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-button {
+  background-color: black;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #b3b3b3;
+}
+::-webkit-scrollbar-arrow-color {
+  background: #000;
+}
+
 body {
   background: #333;
   color: #fff;
